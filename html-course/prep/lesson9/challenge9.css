@@ -1,0 +1,238 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  background-color: green;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.opros {
+  border: 1px solid black;
+  width: 280px;
+  height: 95px;
+}
+
+.question {
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.yes {
+  margin-left: 15px;
+}
+
+.install {
+  width: 375px;
+  background-color: rgb(42, 42, 42);
+  height: 120px;
+  margin-bottom: 40px;
+}
+
+.word {
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-left: 15px;
+  font-size: 25px;
+  margin-bottom: 0;
+  font-family: Roboto;
+}
+
+.explanation {
+  color: rgb(114, 114, 114);
+  margin-top: 12px;
+  padding-left: 15px;
+  font-family: Roboto;
+  padding-right: 10px;
+}
+
+.tweet {
+  width: 500px;
+  height: 80px;
+  margin-left: 30px;
+  border: 1px white solid;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 20px;
+}
+
+.cat {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+
+.comment {
+  vertical-align: middle;
+  margin-left: 10px;
+  width: 300px;
+  height: 20px;
+  font-family: Roboto;
+  font-size: 18px;
+  border: none;
+}
+
+.comment:active {
+  border: none;
+}
+
+.tweet-button {
+  background-color: rgb(2, 158, 255);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 80px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.profiles {
+  height: 330px;
+  width: 680px;
+  display: flex;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+
+.avatars {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 0;
+}
+
+.profile1 {
+  height: 330px;
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  float: left;
+  border: 1px solid rgba(128, 128, 128, 0.405);
+}
+
+.profile2 {
+  height: 330px;
+  width: 200px;
+  margin-right: 20px;
+  float: left;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid rgba(128, 128, 128, 0.405);
+}
+
+.profile3 {
+  height: 330px;
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid rgba(128, 128, 128, 0.405);
+}
+
+.name1 {
+  font-family: Roboto;
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.name2 {
+  font-family: Roboto;
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.name3 {
+  font-family: Roboto;
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.friends {
+  margin-left: 5px;
+  font-family: Roboto;
+  color: gray;
+  margin-top: 8px;
+}
+
+.add {
+  margin-left: 5px;
+  width: 120px;
+  height: 38px;
+  background-color: rgb(51, 80, 250);
+  border-radius: 5px;
+  color: white;
+  border: 1px solid rgb(51, 80, 250);
+  font-family: Roboto;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.add:active {
+  opacity: 0, 8;
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
+  background-color: white;
+  color: gray;
+}
+
+.logo {
+  width: 150px;
+}
+
+.googlesearch {
+  font-family: Roboto;
+  width: 380px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-left: 15px;
+}
+
+.wraper{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btns1,
+.btns2 {
+  height: 38px;
+  width: 120px;
+  border: none;
+  font-family: Roboto;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btns1 {
+  margin-right: 10px;
+}

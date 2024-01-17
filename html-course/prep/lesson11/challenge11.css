@@ -1,0 +1,91 @@
+.requests {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 680px;
+
+}
+
+.zapros {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  height: 324px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.avatarik {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items:baseline;
+}
+
+.avatariki {
+  object-fit: cover;
+  object-position: center;
+  width: 200px;
+  height: 200px;
+}
+
+.friends {
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.friends {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 18px;
+  margin-left: 4px;
+}
+
+.about-friends {
+  display: flex;
+  align-items: center;
+}
+
+.numberoffriends {
+  padding-left: 8px;
+  font-size: 18px;
+  color: gray;
+}
+
+.add-friend {
+  width: 120px;
+  height: 38px;
+  background-color: rgb(51, 80, 250);
+  border-radius: 5px;
+  color: white;
+  border: 1px solid rgb(51, 80, 250);
+  font-family: Roboto;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  margin-left: 5px;;
+}
+
+.add-friend:active {
+  opacity: 0, 8;
+  box-shadow: none;
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.text-part {
+  line-height: 10px;
+}

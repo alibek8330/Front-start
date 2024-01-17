@@ -1,0 +1,183 @@
+.tahoma {
+  font-family: Tahoma;
+  font-weight: bold;
+}
+
+.deal {
+  font-family: Arial;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.sales {
+  color: red;
+  font-family: Arial;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.title {
+  font-family: Verdana;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.minititle {
+  color: grey;
+  font-family: Verdana;
+  margin-top: 3px;
+  font-size: 14px;
+}
+
+.description {
+  font-family: Verdana;
+  font-size: 14px;
+  width: 250px;
+  line-height: 20px;
+}
+
+.go {
+  color: white;
+  font-family: Verdana;
+  background-color: rgb(9, 168, 12);
+  border: none;
+  height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.question {
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.answer {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 15px;
+  margin-top: 15 px;
+  margin-bottom: 15px;
+}
+.link{
+  text-decoration: none;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.word {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(215, 93, 12);
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.mac {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.model {
+  text-align: center;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.price {
+  text-align: center;
+  font-family: arial;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.buy {
+  background-color: rgb(68, 68, 255);
+  color: white;
+  font-family: Arial;
+  border: none;
+  width: 50px;
+  height: 30px;
+  padding-left: 25px;
+  padding-top: 8px;
+  border-radius: 18px;
+  margin-left: 280px;
+}
+
+.dollar {
+  font-family: Arial;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.value {
+  font-size: 20px;
+  color: grey;
+}
+
+.stats {
+  font-family: arial;
+  color: green;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.expectations {
+  font-family: arial;
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.digits {
+  color: red;
+}
+
+.adress {
+  font-family: arial;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.user {
+  color: grey;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.about {
+  font-family: arial;
+  margin-top: 10px;
+  width: 500px;
+  line-height: 23px;
+  margin-bottom: 0;
+}
+
+.conclusion {
+  font-family: arial;
+  margin-top: 20px;
+}
+
+.mail {
+  color: rgb(0, 127, 177);
+  cursor: pointer;
+}
+
+
+
