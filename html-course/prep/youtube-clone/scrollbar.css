@@ -1,0 +1,119 @@
+.scrollbar {
+  margin-top: 60px;
+  margin-left: 172px;
+  display: grid;
+  background-color: rgb(42, 42, 42);
+  grid-template-columns: repeat(4, 350px);
+  grid-template-rows: repeat(3, 380px);
+  flex: 1;
+  row-gap: 40px;   
+  column-gap: 20px;
+  justify-content: space-evenly;
+  font-family: arial;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.video {
+  max-width: 350px;
+  border: 1x solid white;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2.5px 16px;;
+  border-radius: 5px;
+  background-color: rgb(120, 120, 120);
+  cursor: pointer;
+  transition: box-shadow 0.1s;
+}
+
+.video:hover {
+  box-shadow: rgba(219, 219, 219, 0.295) 0px 2.5px 16px;
+}
+
+.video:active {
+  transition: 0.2s;
+  box-shadow: rgba(219, 219, 219, 0.589) 0px 2.5px 16px;
+}
+
+.prev {
+  object-fit: cover;
+  object-position: center;
+  width: 340px;
+  height: 228px;
+  border-radius: 5px;
+}
+
+.video-preview {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.piece1 {
+}
+
+.avatarik {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.profile-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: row;
+  height: 140px;
+}
+
+.piece2 {
+  line-height: 7px;
+  flex: 1;
+}
+
+.video-title {
+  padding-left: 6px;
+}
+
+.video-description {
+  padding-left: 6px;
+  margin-bottom: 0;
+  margin: 0;
+}
+
+.description {
+  line-height: 13px;
+
+}
+
+.video-about {
+  display: flex;
+  padding-left: 6px;
+  height: 50px;
+  font-size: 15px;
+  column-gap: 20px;
+  color: black  ;
+  flex-direction: row;
+  font-weight: 500; 
+}
+
+.video-author {
+  padding-top: 10px;
+  font-weight: 700;
+}
+
+.video-viewers {
+  padding-top: 10px;
+  margin-left: 35px;
+}
+
+.video-data {
+  padding-top: 10px;
+}
+
+
+
+
